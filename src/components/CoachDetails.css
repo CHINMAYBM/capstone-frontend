@@ -1,0 +1,101 @@
+.coach-details-container {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .coach-avatar-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .coach-avatar {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coach-avatar i {
+    font-size: 50px;
+    color: white;
+  }
+  
+  .coach-name {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .coach-designation {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .coach-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .info-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .info-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-icon {
+    font-size: 24px;
+    color: #1a237e;
+    margin-right: 15px;
+  }
+  
+  .info-content label {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  
+  .info-content span {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .no-coach-state {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+  }
+  
+  .no-coach-state i {
+    font-size: 48px;
+    color: #3498db;
+    margin-bottom: 15px;
+  }
+  
+  .no-coach-state h3 {
+    font-size: 22px;
+    color: #2c3e50;
+  }
+  
+  .no-coach-state p {
+    font-size: 16px;
+    color: #64748b;
+  }
+  

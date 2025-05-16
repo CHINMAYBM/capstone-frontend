@@ -1,0 +1,132 @@
+/* General Training Session Section */
+.training-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .training-content {
+    margin-top: 20px;
+  }
+  
+  /* Training Session Cards */
+  .training-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .training-card {
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .session-badge, .coach-badge {
+    display: flex;
+    align-items: center;
+  }
+  
+  .session-badge i, .coach-badge i {
+    margin-right: 8px;
+    color: #007bff;
+  }
+  
+  .card-body {
+    margin-top: 10px;
+  }
+  
+  .session-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .session-detail i {
+    margin-right: 8px;
+    color: #007bff;
+  }
+  
+  .players-section {
+    margin-top: 15px;
+  }
+  
+  .players-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .player-chip {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .no-players {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  /* Empty State */
+  .empty-state {
+    text-align: center;
+    color: #777;
+    font-size: 1.2rem;
+  }
+  
+  .empty-state i {
+    font-size: 3rem;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .empty-state h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .empty-state p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .training-card {
+      width: 100%;
+    }
+  
+    .training-grid {
+      flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,120 @@
+/* Goals Section Styles */
+.goals-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-header {
+    margin-bottom: 20px;
+  }
+  
+  .header-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .goals-content {
+    margin-top: 20px;
+  }
+  
+  .goals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .goal-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .goal-status-badge {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .goal-status-badge.achieved {
+    color: green;
+  }
+  
+  .goal-type {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .goal-type h3 {
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .goal-description {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .goal-progress {
+    margin-top: 20px;
+  }
+  
+  .progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  
+  .progress-bar {
+    margin-top: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 10px;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .goal-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .deadline,
+  .feedback {
+    display: flex;
+    align-items: center;
+  }
+  
+  .deadline i,
+  .feedback i {
+    margin-right: 8px;
+  }
+  
+  .no-data {
+    text-align: center;
+    color: #777;
+    font-size: 1.2rem;
+  }
+  
+  .no-data i {
+    font-size: 3rem;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .no-data p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  

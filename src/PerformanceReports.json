@@ -1,0 +1,84 @@
+[
+    {
+      "performanceReport": {
+        "recordDate": "2025-06-15",
+        "playerName": "John Doe",
+        "playerAge": 25,
+        "playerHeight": 180,
+        "weight": 75,
+        "hrv": "High",
+        "topSpeed": 30,
+        "caloriesBurned": 500,
+        "passingAccuracy": 85,
+        "dribblingSuccessRate": 80,
+        "shootingAccuracy": 90,
+        "tacklingSuccessRate": 75,
+        "crossingAccuracy": 70
+      },
+      "remarks": {
+        "Heart Rate Variability": "Excellent",
+        "Top Speed": "Good",
+        "Calories Burned": "Average",
+        "Passing Accuracy": "Excellent",
+        "Dribbling Success Rate": "Good",
+        "Shooting Accuracy": "Excellent",
+        "Tackling Success Rate": "Average",
+        "Crossing Accuracy": "Below Average"
+      }
+    },
+    {
+      "performanceReport": {
+        "recordDate": "2025-06-16",
+        "playerName": "Jane Smith",
+        "playerAge": 28,
+        "playerHeight": 170,
+        "weight": 65,
+        "hrv": "Medium",
+        "topSpeed": 28,
+        "caloriesBurned": 480,
+        "passingAccuracy": 90,
+        "dribblingSuccessRate": 85,
+        "shootingAccuracy": 92,
+        "tacklingSuccessRate": 80,
+        "crossingAccuracy": 75
+      },
+      "remarks": {
+        "Heart Rate Variability": "Good",
+        "Top Speed": "Good",
+        "Calories Burned": "Good",
+        "Passing Accuracy": "Excellent",
+        "Dribbling Success Rate": "Excellent",
+        "Shooting Accuracy": "Excellent",
+        "Tackling Success Rate": "Good",
+        "Crossing Accuracy": "Good"
+      }
+    },
+    {
+      "performanceReport": {
+        "recordDate": "2025-06-17",
+        "playerName": "Emily Davis",
+        "playerAge": 22,
+        "playerHeight": 165,
+        "weight": 60,
+        "hrv": "Low",
+        "topSpeed": 25,
+        "caloriesBurned": 450,
+        "passingAccuracy": 80,
+        "dribblingSuccessRate": 70,
+        "shootingAccuracy": 80,
+        "tacklingSuccessRate": 85,
+        "crossingAccuracy": 65
+      },
+      "remarks": {
+        "Heart Rate Variability": "Average",
+        "Top Speed": "Average",
+        "Calories Burned": "Good",
+        "Passing Accuracy": "Good",
+        "Dribbling Success Rate": "Average",
+        "Shooting Accuracy": "Good",
+        "Tackling Success Rate": "Excellent",
+        "Crossing Accuracy": "Below Average"
+      }
+    }
+  ]
+  
